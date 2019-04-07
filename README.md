@@ -1,5 +1,12 @@
 # Angular Material
 
+1. MatToolbarModule
+2. MatMenuModule
+3. MatButtonModule
+4. MatCardModule
+5. MatTabsModule
+6. MatIconModule
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
 ## Development server
