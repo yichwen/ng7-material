@@ -1,0 +1,10 @@
+mat-tab-group {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.tab-content {
+    padding-top: 20px;
+    text-align: center;
+}

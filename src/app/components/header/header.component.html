@@ -1,0 +1,15 @@
+<!-- mat-toolbar is a container for headers, titles, or actions -->
+<mat-toolbar color="primary" class="header-font">
+  <mat-toolbar-row>
+    <span>Angular Material</span>
+    <span class="header-divider"></span>
+    <button mat-button [matMenuTriggerFor]="layoutMenu">
+      Layout <i class="material-icons">arrow_drop_down</i>
+    </button>
+    <mat-menu #layoutMenu="matMenu">
+      <button mat-menu-item routerLink="/card">Card</button>
+      <button mat-menu-item routerLink="/tabs">Tabs</button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>
+
